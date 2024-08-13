@@ -1,0 +1,178 @@
+/*-----------------------------Product(Chi tiết sản phẩm)------------------------------------*/
+.flex-box{
+    display: flex;
+    width: 1000px;
+    margin: 20px auto;
+    margin-right: 130px;
+}
+.left{
+    width: 40%;
+}
+.big-img{
+    width: 350px;
+}
+.big-img img{
+    width: inherit;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.small-img{
+    width: 50px;
+    overflow: hidden;
+    border: 1.5px solid black;
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/*
+.small-img:hover img{
+    transform: scale(1.2);
+} */
+.url{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 102, 255);
+}
+.pname{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #CBA511;
+}
+.pname1{
+    margin-top: 10px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    margin-right: 430px;
+}
+.psize{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ff5e00;
+    color: #000;
+    text-align: center;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.quantity{
+    display: flex;
+    margin-top: 1rem;
+}
+.quantity p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.quantity input{
+    width: 40px;
+    height: fit-content;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 15px;
+} 
+.right form {
+    display: flex;
+    gap: 1rem;
+    margin-top: 40px;
+
+}
+.form-container form:last-child{
+    display: block;
+}
+
+.btn-box{
+    display: flex;
+}
+
+.form-container form:last-child .btn-box {
+    padding: 0;
+    margin: 25px 0 0;
+}
+
+.form-container form:last-child .quantity {
+    display: flex;
+    align-items: center;
+}
+
+.btn-box button{
+    font-size: 18px;
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+}
+.cart-btn{
+    background-color: #ff5e00;
+    margin-right: 20px;
+}
+.buy-btn{
+    background-color: #00aeff;
+}
+.cart-btn:hover{
+    background-color: #ff3c00;
+}
+.buy-btn:hover{
+    background-color: #0066ff;
+}
+/*--------------Form button thihoa--------------*/
+.thihoa {
+    text-align: center;
+  }
+  .thihoa input[type="button"] {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: #110E72;
+    padding: 10px 20px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .thihoa input[type="button"]:hover {
+    background-color:#CBA511;
+  }
+/*----------------------------------------*/
+.size-options {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 10px 0 0;
+}
+.size-options label, .size-options input[type="radio"]{
+    margin-right: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
